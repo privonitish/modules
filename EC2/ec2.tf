@@ -14,3 +14,7 @@ resource "aws_instance" "web" {
       Name = "njoshi-terraform-ec2"
   }
 }
+
+resource "aws_instance" "web1" {
+  # (resource arguments)
+}
