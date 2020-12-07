@@ -1,6 +1,6 @@
 resource "aws_instance" "web" {
   ami           = "ami-08d9a394ac1c2994c"
-  instance_type = "var.itype[0]"
+  instance_type = "t2.micro"
   subnet_id = "subnet-02d633f9f90d3817a"
   user_data     = <<-EOT
     #!/bin/bash
