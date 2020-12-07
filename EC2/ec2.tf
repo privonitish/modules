@@ -13,3 +13,4 @@ resource "aws_instance" "web" {
     tags = {
       Name = "njoshi-terraform-ec2"
   }
+}
