@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "njoshi" {
-  bucket =  "var.bucket"
+  bucket =  "${var.bucket}"
   acl    = "private"
 
   tags = {
