@@ -1,6 +1,6 @@
 variable "bucket" {
   description = " The name of the bucket."
   type = "string"
-  default = "njoshi-007-bucket"
+  default = "njoshi-008-bucket"
 
 }
