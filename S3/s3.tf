@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "njoshi" {
   acl    = "private"
 
   tags = {
-    Name        = "njoshi-bucket"
+    Name        = "njoshi-bucket-01"
     Environment = "Dev"
   }
 }
