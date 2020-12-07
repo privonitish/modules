@@ -13,4 +13,10 @@ resource "aws_instance" "web" {
     tags = {
       Name = "njoshi-terraform-ec2"
   }
+
+resource "aws_instance" "web1" {
+  ami = "ami-3a674d5a"
+  instance_type = "t2.micro"
+  subnet_id = "subnet-02d633f9f90d3817a"
+
 }
